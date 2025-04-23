@@ -4,13 +4,13 @@ import IMAGES from "../../../assets/Images/Image";
 export default function aboutMe() {
   return (
     <>
-    <div className="myMain flex justify-between items-center py-40 gap-10">
+    <div className="myMain flex justify-between items-center py-32 gap-10">
 
         <img src={IMAGES.about} alt="" className="w-1/2 h-1/2" />
         
    
       <div className=" flex flex-col w-1/2 p-6 justify-center items-center font-baloo">
-        <div className="text-left w-full text-2xl my-2"><p>Who Am I?</p></div>
+        <div className="text-left w-full text-2xl my-2 text-brandLight "><p>Who Am I ?</p></div>
         <div className="text-left w-full mb-3 text-4xl text-[#61529e] "><h3>About Me</h3></div>
         <p>
           Hi! I'm Vaibhav Sharma, a passionate Frontend Developer based in

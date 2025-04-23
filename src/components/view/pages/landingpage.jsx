@@ -18,7 +18,7 @@ export default function landingpage() {
         </div>
         <div className="w-full max-w-xl text-left ">
           <p className="text-3xl tracking-[0.6rem] text-brandLight">
-            FRONTEND WEB DESIGNER
+            FRONTEND DEVELOPER
           </p>
         </div>
         <div className="w-full max-w-xl text-left ">

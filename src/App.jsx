@@ -2,8 +2,13 @@ import { useState } from "react";
 import "./App.css";
 import IMAGES from "./assets/Images/Image";
 import Navbar from "./components/header/navbar";
-import Landingpage from "./components/header/pages/landingpage";
-import AboutMe from "./components/header/pages/aboutMe";
+import Landingpage from "./components/view/pages/landingpage";
+import AboutMe from "./components/view/pages/aboutMe";
+import Services from "./components/view/pages/services";
+import Projects from "./components/view/pages/projects";
+import MidSection from "./components/view/pages/midSection";
+import ContactForm from "./components/view/auth/contact-form/contactForm";
+import Footer from "./components/footer/footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,7 +27,16 @@ function App() {
           <Navbar />
           <Landingpage />
           <AboutMe />
+          <Services />
+          <Projects />
+
         </div>
+          <MidSection />
+          <div className="container mx-auto">
+          <ContactForm />
+          <hr className="my-10 border-t-2 border-gray-300 w-3/4 mx-auto" />
+          <Footer />
+          </div>
       </div>
     </>
   );
