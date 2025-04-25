@@ -1,18 +1,17 @@
 import React from "react";
 
-export default function ContactForm() {
+export default function ContactForm({ id }) {
   return (
-    <div className="my-20 px-4">
-      <div className="text-center w-full text-xl my-1 text-brandLight">
+    <div className="my-20 px-4 " id={id}>
+      <div className="text-center w-full md:text-xl my-1 text-brandLight dark:text-yellow-800">
         <p>How can you communicate?</p>
       </div>
 
-      <div className="text-center w-full mb-12 text-4xl text-[#61529e] font-bold">
+      <div className="text-center w-full mb-12 text-2xl md:text-4xl text-[#61529e] font-bold">
         <h3>Contact Me</h3>
       </div>
 
       <form className="flex flex-col justify-center items-center gap-6 w-full max-w-4xl mx-auto">
-
         <div className="flex flex-col md:flex-row gap-5 w-full">
           <input
             type="text"
@@ -35,7 +34,7 @@ export default function ContactForm() {
 
         <button
           type="submit"
-          className="bg-[#61529e] hover:bg-[#443b71] text-white py-3 px-4 rounded-md text-lg transition duration-300 mb-20"
+          className="dark:outline dark:outline-1 dark:outline-[#61529e] bg-[#61529e] dark:bg-transparent dark:text-[#61529e] text-white py-2 px-4 rounded-md text-lg hover:bg-[#443b71] hover:text-white hover:outline-none transition duration-300"
         >
           Send Message
         </button>

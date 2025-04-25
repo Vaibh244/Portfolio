@@ -14,32 +14,32 @@ export default function Footer() {
 
         {/* Center Quote */}
         <div className="max-w-sm text-gray-300">
-          “Thanks for visiting ❤️ Let’s build something amazing together!”
+          “Thanks for visiting. Let’s build something amazing together!”
         </div>
 
         {/* Right - Social Links */}
-        <div className="flex flex-wrap justify-center gap-4 text-lg">
+        <div className="flex flex-wrap justify-center gap-4 text-lg cursor-pointer">
           <a
-            href="https://github.com/vaibhav"
+            href="https://github.com/Vaibh244"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-400 transition"
           >
-            GitHub
+            <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="https://linkedin.com/in/vaibhav"
+            href="https://www.linkedin.com/in/vaibhav-sharma-83a980192/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-400 transition"
           >
-            LinkedIn
+            <i className="fa-brands fa-linkedin"></i>
           </a>
           <a
-            href="mailto:vaibhav@example.com"
+            href="mailto:awesomevaibhav18@gmail.com"
             className="hover:text-purple-400 transition"
           >
-            Email
+            <i className="fa-solid fa-envelope"></i>
           </a>
         </div>
       </div>

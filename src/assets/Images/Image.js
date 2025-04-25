@@ -7,6 +7,8 @@ import ss4 from './Gallery/ss4.png'
 import fbImg from './Gallery/fb.png'
 import ToDo from './Gallery/ToDo.png'
 import calc from './Gallery/calc.png'
+import firstDark from './Gallery/firstDark.png'
+import secondDark from './Gallery/secondDark.png'
 
 const IMAAGES = {
     bgImg: bgImg,
@@ -18,6 +20,8 @@ const IMAAGES = {
     fbImg: fbImg,
     ToDo: ToDo,
     calc: calc,
+    firstDark: firstDark,
+    secondDark: secondDark,
 }
 export default IMAAGES
 

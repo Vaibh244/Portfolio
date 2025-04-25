@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -13,6 +14,7 @@ export default {
         brandDark: '#525255',
         brandLight: '#6B6B72',
         brandName: '#3d3d40',
+        navColor: 'rgb(39 43 43)',
       }
     },
   },
