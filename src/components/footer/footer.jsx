@@ -20,7 +20,7 @@ export default function Footer() {
         {/* Right - Social Links */}
         <div className="flex flex-wrap justify-center gap-4 text-lg cursor-pointer">
           <a
-            href="https://github.com/Vaibh244"
+            href="https://github.com/VaibhavSharma-Developer"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-400 transition"
@@ -36,7 +36,7 @@ export default function Footer() {
             <i className="fa-brands fa-linkedin"></i>
           </a>
           <a
-            href="mailto:awesomevaibhav18@gmail.com"
+            href="mailto: "
             className="hover:text-purple-400 transition"
           >
             <i className="fa-solid fa-envelope"></i>
